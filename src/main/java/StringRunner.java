@@ -6,6 +6,9 @@ class Problem {
     System.out.println(Arrays.toString(array));
     return Arrays.toString(array);
   }
+  public static <E> E getFirstElement(E[] array){
+    return array[0];
+  }
 }
 
 public class StringRunner {
